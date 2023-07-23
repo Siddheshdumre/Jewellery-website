@@ -376,140 +376,148 @@ nav .content .links{
 
 
 
-/* Dishes Section Start */
-.dishes{
-    padding: 100px 8% 120px;
-}
-.main-text{
-    text-align: center;
-}
-.main-text h3{
-    font-size: 36px;
-    font-weight: 600;
-    color: black;
-    text-shadow: 0px 1px 1px black;
-}
-.main-text h3 span{
-    color: #C8126E;
-}
-.card-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-    text-align: center;
-    gap: 0.90rem;
-    margin-top: 30px;
-}
-.card-content .row{
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.row img{
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-}
-.card-body{
-    text-align: center;
-}
-.card-body h3{
-    margin-top: 10px;
-    font-size: 30px;
-    font-weight: 500;
-    color: black;
-    text-shadow: 0px 1px 1px black;
-}
-.rating i{
-    margin-left: 5px;
-    margin-top: 10px;
-}
-.checked{
-    color: #C8126E;
-}
-.card-body p{
-    font-weight: 500;
-    margin-top: 5px;
+.heading {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  .heading > h1 {
+    line-height: 45px;
+  }
+
+  .heading > p {
+    line-height: 32px;
+  }
+
+  .container {
+    flex-wrap: wrap;
+    display: flex;
+
+    justify-content: space-evenly;
+
+    padding: 5%;
+  }
+
+  .info {
+    text-align: start;
+    line-height: 30px;
     letter-spacing: 1px;
-}
-.price{
-    font-size: 17px;
-    font-weight: bold;
-    margin-top: 5px;
-}
-.card-body button{
-    width: 130px;
-    height: 30px;
-    font-weight: 550;
-    margin-top: 10px;
-    background: #C8126E;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-.card-body button:hover{
-    width: 150px;
-}
-@media (max-width:920px){
-    .card-content{
-        grid-template-columns: 1fr;
-    }
-}
-/* Dishes Section End */
+
+    width: 28%;
+    box-shadow: 0 1px 1px 0 rgb(10 16 34 / 20%);
+
+    font-family: "Raleway", sans-serif;
+  }
 
 
-
-
-
-
-/* Section Menu Start */
-#menu-text{
-    background: white;
+.info .icon {
     text-align: center;
-    font-size: 36px;
+    margin: auto;
+    font-size: 50px;
+    width: auto;
+  }
+  
+  .info {
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+  
+    box-shadow: 0 1px 1px 0 rgb(10 16 34 / 20%);
+  
+    font-family: "Raleway", sans-serif;
+  
+    border: 0.25px solid #fff;
+  }
+  
+  .info__text h1 {
     font-weight: 600;
-    color: black;
-    text-shadow: 0px 1px 1px black;
-    margin-top: 60px;
-}
-#menu-text span{
-    color: #C8126E;
-    text-shadow: 0px 1px 1px black;
-}
-.menu{
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .info__text p {
+    padding: 10px;
+    color: #707070;
+  }
+  
+  .info__text h5 {
+    color: #f85a40;
+    padding: 10px;
+  }
+  
+  .info:hover {
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  .info span > img {
+    width: 100%;
+  }
+  
+  .info__text {
+    padding: 10px;
+  }
+  
+  .info__text > p {
+    line-height: 20px;
+  }
+  
+  .info {
+    margin-bottom: 30px;
+  }
+  
+
+
+/* Reviews Start */
+.reviews{
     padding: 100px 8% 120px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr );
-    align-items: center;
-    gap: 1.5rem;
+    background: white;
 }
-.img-content{
+.review-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+.box{
+    background: #f9f9f9;
+    padding: 35px 45px;
+    height: 35vh;
+    border-radius: 8px;
+    transition: 0.5s ease;
     text-align: center;
 }
-.img-content img{
-    border-radius: 100px;
-    width: 150px;
+
+.box p{
+    margin-top:10px;
 }
+
 @media (max-width:920px){
-    .menu{
+    .review-content{
         grid-template-columns: 1fr;
     }
-    .menu-img{
-        text-align: center;
-    }
-    .menu-img img{
-        width: 70%;
-    }
-    .menu-content{
-        text-align: center;
-    }
+    .container {
+        flex-wrap: wrap;
+        display: flex;
+    
+        justify-content: space-evenly;
+    
+        padding: 5%;
+      }
+    
+      .info {
+        text-align: start;
+        line-height: 30px;
+        letter-spacing: 1px;
+        flex-basis: 100%;
+        width: 28%;
+        box-shadow: 0 1px 1px 0 rgb(10 16 34 / 20%);
+    
+        font-family: "Raleway", sans-serif;
+      }
 }
-/* Section Menu End */
-
-
-
+/* Reviews End */
 
 
 

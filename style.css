@@ -671,46 +671,6 @@ form textarea{
 
 
 
-
-
-
-/* Reviews Start */
-.reviews{
-    padding: 100px 8% 120px;
-    background: white;
-}
-.review-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    align-items: center;
-    gap: 2.5rem;
-    margin-top: 5rem;
-}
-.box{
-    background: #f9f9f9;
-    padding: 35px 45px;
-    height: 50vh;
-    border-radius: 8px;
-    transition: 0.5s ease;
-    text-align: center;
-}
-.img img{
-    width: 100px;
-    border-radius: 100px;
-}
-@media (max-width:920px){
-    .review-content{
-        grid-template-columns: 1fr;
-    }
-}
-/* Reviews End */
-
-
-
-
-
-
-
 /* Footer Start */
 /* footer section styling */
 footer {

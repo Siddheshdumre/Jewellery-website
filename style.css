@@ -517,6 +517,19 @@ nav .content .links{
         font-family: "Raleway", sans-serif;
       }
 }
+
+.main-text{
+    text-align: center;
+}
+.main-text h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+}
+.main-text h3 span{
+    color: #C8126E;
+}
 /* Reviews End */
 
 

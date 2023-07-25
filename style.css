@@ -10,6 +10,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
+    font-family: 'Lato';
 
 }
 body{
@@ -32,8 +33,7 @@ body{
 }
 /* Header Start */
 .header{
-    background: #F5F5DC
-    ;
+    background: black;
     width: 100%;
     box-shadow: 0px 1px 1px black;
 
@@ -56,12 +56,12 @@ nav .content .links{
     margin-left: 80px;
 }
 .content .logo a{
-    color: black;
+    color: white;
     font-size: 30px;
     font-weight: 650;
 }
 .content .logo a span{
-    color: #E60088;
+    color: purple;
 }
 .content .links li{
     list-style: none;
@@ -69,7 +69,7 @@ nav .content .links{
 }
 .content .links li a,
 .content .links li label{
-    color: #E60088;
+    color: purple;
     font-size: 18px;
     padding: 9px 17px;
     font-weight: bold;
@@ -81,7 +81,7 @@ nav .content .links{
 }
 .content .links li a:hover,
 .content .links li label:hover{
-    background: #E60088;
+    background: purple;
     color: white;
 }
 .header .search-icon,
@@ -311,6 +311,7 @@ nav .content .links{
 }
 
 .about .image{
+    margin-left: 40px;
     flex:1 1 30rem;
     height:20rem;
     background-size: cover;
@@ -330,6 +331,7 @@ nav .content .links{
 }
 
 .about .content{
+    margin-right: 20px;
     flex:1 1 40rem;
     padding-left: 2rem;
     margin-top: 3rem;
@@ -512,7 +514,8 @@ nav .content .links{
 .box{
     background: #f9f9f9;
     padding: 35px 45px;
-    height: 35vh;
+    height: auto;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     transition: 0.5s ease;
     text-align: center;
@@ -560,21 +563,6 @@ nav .content .links{
     color: #C8126E;
 }
 /* Reviews End */
-
-
-
-/* About Section Start */
-
-
-
-
-
-
-
-
-/* Order Section End */
-
-
 
 
 /* Footer Start */

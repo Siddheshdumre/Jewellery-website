@@ -374,6 +374,21 @@ nav .content .links{
     width: 30%;
 }
 
+@media (max-width:920px){
+    .about .content{
+        margin-top: 12rem;
+        height: 54rem;
+
+    }
+    .about .image img{
+        height:20rem;
+        width: 20rem;
+        margin: 4rem;
+        margin-left: 2px;
+
+    
+    }
+   
 
 
 

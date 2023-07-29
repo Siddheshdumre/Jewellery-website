@@ -172,7 +172,7 @@ nav .content .links{
     nav .content .links{
         display: block;
         position: fixed;
-        background: white;
+        background: black;
         height: 100%;
         width: 100%;
         top: 70px;
@@ -284,6 +284,7 @@ nav .content .links{
 @media screen and (max-width:1243){
     .home{
         padding: 50px 5% 120px;
+
     }
 }
 @media (max-width:660px){
@@ -388,9 +389,15 @@ nav .content .links{
 
     
     }
+    .home{
+        background: url(jewels-sparkle-golden-wedding-rings-lying-leather.jpg) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+
+    }
    
-
-
 
 .parent {
     display: grid;
@@ -660,7 +667,9 @@ footer {
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
-}/* Footer End */
+
+}
+/* Footer End */
 
 html{
     scroll-behavior: smooth;
